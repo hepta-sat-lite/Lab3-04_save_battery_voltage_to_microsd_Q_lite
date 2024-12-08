@@ -20,7 +20,6 @@ void HeptaBattery::shut_down_regulator()
 void HeptaBattery::turn_on_regulator()
 {
     _bat_ct = 1;
-    wait_ms(1000);
 }
 
 void HeptaBattery::vol_u16(char* bt_u16)
