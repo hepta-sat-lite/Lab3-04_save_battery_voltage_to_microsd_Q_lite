@@ -3,10 +3,8 @@
 #include "LITE_EPS.h"
 
 RawSerial pc(USBTX,USBRX,9600);
-LITE_CDH cdh(PB_5, PB_4, PB_3, PA_8, "sd", PA_3);
 
 
- 
 int main()
 {
 
